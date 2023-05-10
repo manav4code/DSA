@@ -24,8 +24,8 @@ class disjointSet{
         }
 
         void unionBySize(int u, int v){
-            int pu = parent[u];
-            int pv = parent[v];
+            int pu = findUPar(u);
+            int pv = findUPar(v);
 
             if(pu == pv) return;
 
