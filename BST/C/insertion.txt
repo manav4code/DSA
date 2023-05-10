@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Definition for a binary tree node.
+struct TreeNode {
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};
+
+// Function to create a new node with the given value.
+struct TreeNode* newNode(int val) {
+    struct TreeNode* node = (struct TreeNode*)malloc(sizeof(struct TreeNode));
+    node->val = val;
+    node->left = NULL;
+    node->right = NULL;
+    return node;
+}
+
+// Recursive function to insert a node with the given value into a BST.
+struct TreeNode* insert(struct TreeNode* root, int val) {
+    // Base case: if the root is null, create a new node and return it.
+    if (root == NULL) {
+        return newNode(val);
+    }
+    
+    // If the value to be inserted is less than the root's value, go to the left subtree.
+    if (val < root->val) {
+        root->left = insert(root->left, val);
+    }
+    // If the value to be inserted is greater than or equal to the root's value, go to the right subtree.
+    else {
+        root->right = insert(root->right, val);
+    }
+    
+    // Return the root node.
+    return root;
+}
+
+int main() {
+    // Create an empty BST.
+    struct TreeNode* root = NULL;
+    
+    // Insert some nodes into the BST.
+    root = insert(root, 5);
+    root = insert(root, 3);
+    root = insert(root, 7);
+    root = insert(root, 1);
+    root = insert(root, 9);
+    
+    return 0;
+}

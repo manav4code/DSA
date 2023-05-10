@@ -1,0 +1,7 @@
+Given a graph, Province are connected components such that each nodes are connected within it. Means there does not exist any node which is not accessible to another node within a province.
+
+1> We need to build adjacency list from the given node connections.
+2> Initialize Visited array of size equal to number of nodes in the graph.
+3> Run loop for all the node in the graph.
+4> If the node is not visited then perform any sort of traversal. 
+5> For every not visited node, increament the count. If a given node is part of province then traversal will result into traversal of all the nodes in that province. Hence all the node within a province will be visited. Therefore, number of non-visited is nothing but number of province in the graph.

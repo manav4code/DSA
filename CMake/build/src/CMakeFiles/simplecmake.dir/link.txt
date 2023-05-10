@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsimplecmake.a  CMakeFiles/simplecmake.dir/printhello.cpp.o
+/usr/bin/ranlib libsimplecmake.a

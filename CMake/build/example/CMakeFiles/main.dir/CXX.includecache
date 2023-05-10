@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/simplecmake/printhello.h
+
+/mnt/d/College_docs/CS/DSA/CMake/example/main.cpp
+iostream
+-
+simplecmake/printhello.h
+/mnt/d/College_docs/CS/DSA/CMake/example/simplecmake/printhello.h
+

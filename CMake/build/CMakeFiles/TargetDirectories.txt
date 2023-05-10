@@ -1,0 +1,10 @@
+/mnt/d/College_docs/CS/DSA/CMake/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/College_docs/CS/DSA/CMake/build/CMakeFiles/edit_cache.dir
+/mnt/d/College_docs/CS/DSA/CMake/build/include/CMakeFiles/rebuild_cache.dir
+/mnt/d/College_docs/CS/DSA/CMake/build/include/CMakeFiles/edit_cache.dir
+/mnt/d/College_docs/CS/DSA/CMake/build/src/CMakeFiles/rebuild_cache.dir
+/mnt/d/College_docs/CS/DSA/CMake/build/src/CMakeFiles/edit_cache.dir
+/mnt/d/College_docs/CS/DSA/CMake/build/src/CMakeFiles/simplecmake.dir
+/mnt/d/College_docs/CS/DSA/CMake/build/example/CMakeFiles/rebuild_cache.dir
+/mnt/d/College_docs/CS/DSA/CMake/build/example/CMakeFiles/edit_cache.dir
+/mnt/d/College_docs/CS/DSA/CMake/build/example/CMakeFiles/main.dir

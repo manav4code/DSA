@@ -1,0 +1,6 @@
+1> Island is nothing but lumps of similar entity connected with it's 4 Neighbors or 8.
+
+Inorder to find Islands.
+> traverse through grid
+> if the node is not visited before and it is land i.e "1" then perform 4 neighbour/8 traversal for that node and corresponding island node in its neighbourood.
+> island members are pushed to queue and traversal continues until queue is empty. This marks the end of an island.
