@@ -26,7 +26,7 @@ void radixsort(int arr[],int size){
         }
 
         int index = 0;
-        for(int j = 0; j <= 10; j++){
+        for(int j = 0; j < 10; j++){
             if(!hash[j].empty()){
                 for(auto it: hash[j]){
                     arr[index++] = it;
